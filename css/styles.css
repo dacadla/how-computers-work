@@ -1,0 +1,137 @@
+/* Reset some default styles for cross-browser consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the entire page */
+body {
+	text-decoration: none;
+  background-color: #111; /* Dark background color */
+	color: #fff; /* Text color */
+  font-family: 'Sofia Sans', sans-serif; /* Use Sofia Sans Google Font */
+}
+
+/* Style the header */
+header {
+    background-color: #222; /* Darker background for header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff9900; /* Orange accent color for headings */
+}
+
+/* Style navigation menu */
+nav ul {
+  list-style-type: none;
+	text-align: center;
+}
+
+li {
+	color: #ff9900
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9900; /* Orange accent color for links */
+}
+
+/* Style main content section */
+main {
+    padding: 20px;
+}
+
+/* Style sections and headings */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ff9900; /* Orange accent color for subheadings */
+}
+
+/* Style footer */
+footer {
+    background-color: #222; /* Darker background for footer */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Make it span the entire width of the viewport */
+}
+
+/* Quiz-specific styles */
+section fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff9900; /* Orange accent color for headings */
+}
+
+section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+section button[type="submit"] {
+    background-color: #ff9900; /* Orange accent color for buttons */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the quiz results */
+section p {
+    font-size: 18px;
+    color: #ff9900; /* Orange accent color for text */
+    margin-bottom: 10px;
+}
+
+/* Style the link back to the hardware overview */
+section a {
+    color: #ff9900; /* Orange accent color for links */
+    text-decoration: underline;
+}
+
+/* Adjust spacing for better readability */
+section {
+    margin-bottom: 30px;
+}
+
+
+/* Style for the "Start Quiz" button */
+button, .button {
+    display: inline-block;
+    background-color: #ff9900; /* Orange accent color for buttons */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #ff6600; /* Darker orange on hover */
+}
