@@ -56,7 +56,7 @@
     </main>
 
   <footer>
-    <p>&copy; <?php echo date("Y"); ?> Radovan Mihalik</p>
+      <p>&copy; <?php echo date("Y"); ?> Radovan Mihalik</p>
   </footer>
 </body>
 </html>

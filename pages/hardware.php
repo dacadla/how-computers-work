@@ -125,6 +125,7 @@
 
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Radovan Mihalik</p>
+        <a href="../index.php">Return To Home Page</a>
     </footer>
 </body>
 </html>

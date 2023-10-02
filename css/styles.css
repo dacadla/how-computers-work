@@ -27,7 +27,7 @@ h1 {
 /* Style navigation menu */
 nav ul {
   list-style-type: none;
-	text-align: center;
+  text-align: center;
 }
 
 li {
@@ -68,6 +68,11 @@ footer {
     bottom: 0; /* Position it at the bottom */
     width: 100%; /* Make it span the entire width of the viewport */
 }
+
+footer * {
+    display: inline;
+}
+
 
 /* Quiz-specific styles */
 section fieldset {

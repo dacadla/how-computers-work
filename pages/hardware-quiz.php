@@ -213,6 +213,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <footer>
     <p>&copy; <?= date("Y"); ?> Radovan Mihalik</p>
+    <a href="../index.php">Return To Home Page</a>
 </footer>
 </body>
 </html>
