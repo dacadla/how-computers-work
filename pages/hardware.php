@@ -12,6 +12,11 @@
     </header>
 
     <main>
+        <h1>Different computer hardware components</h1>
+        <p>Your computer is made up of many different parts. Most or all of these parts are needed for your computer to run, or give extra features such as reading optical discs. Some parts aim to help other parts do their job, such as cooling systems.</p>
+        <p>All of these components work together to run your computer, with the help of an "orchestrator" in software so other software can use the hardware to it's full potential.</p>
+        <p>The following are some components and a short description of them:</p>
+        <br>
         <section>
             <h2>Central Processing Unit (CPU)</h2>
             <p>

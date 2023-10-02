@@ -105,8 +105,7 @@ section button[type="submit"] {
     cursor: pointer;
 }
 
-/* Style the quiz results */
-section p {
+section p, main p {
     font-size: 18px;
     color: #ff9900; /* Orange accent color for text */
     margin-bottom: 10px;
