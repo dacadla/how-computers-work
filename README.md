@@ -1,0 +1,3 @@
+# How computers work
+Welcome to my project, "How Computers Work." I'm Radovan Mihalik, and my mission is to make technology accessible and understandable for everyone, especially young learners. This website is dedicated to explaining the fascinating world of computers in simple terms, designed to help students in the MYP 1/2/3 age group (around 12 to 14 years old) grasp the basics.
+Through interactive lessons, informative articles, and engaging quizzes, I aim to demystify computer hardware and software, helping students build a solid foundation for their digital journey.
