@@ -73,31 +73,29 @@ footer * {
     display: inline;
 }
 
-
-/* Quiz-specific styles */
-section fieldset {
+main fieldset {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-section legend {
+main legend {
     font-weight: bold;
     font-size: 18px;
     color: #ff9900; /* Orange accent color for headings */
 }
 
-section label {
+main label {
     display: block;
     margin-bottom: 5px;
 }
 
-section input[type="radio"] {
+main input[type="radio"] {
     margin-right: 5px;
 }
 
 /* Style the submit button */
-section button[type="submit"] {
+main button[type="submit"] {
     background-color: #ff9900; /* Orange accent color for buttons */
     color: #fff; /* Text color */
     padding: 10px 20px;
@@ -105,14 +103,14 @@ section button[type="submit"] {
     cursor: pointer;
 }
 
-section p, main p {
+main p {
     font-size: 18px;
     color: #ff9900; /* Orange accent color for text */
     margin-bottom: 10px;
 }
 
 /* Style the link back to the hardware overview */
-section a {
+main a {
     color: #ff9900; /* Orange accent color for links */
     text-decoration: underline;
 }
