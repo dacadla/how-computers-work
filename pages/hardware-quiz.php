@@ -137,6 +137,9 @@ $quiz = [
         'answer' => 'B',
     ],
 ];
+shuffle($quiz);
+error_log(print_r($quiz, true));
+
 
 // Initialize variables
 $score = 0;
@@ -167,7 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include "../components/head.php"?>
+    <?php include "../components/head.php" ?>
     <link rel="stylesheet" href="../css/styles.css">
     <title>Hardware Quiz</title>
 </head>
@@ -199,7 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p><a href="hardware-quiz.php" class="button">Retry</a></p>
                 <?php if ($score === count($quiz)): ?>
                     <p><?= $perfectScoreMessage ?></p>
-                    <a href="software.php" class="button">Continue to software</a>
+                    <a href="system-software.php" class="button">Continue to system software</a>
                 <?php endif; ?>
             <?php else: ?>
                 <p>Please answer all questions before submitting the quiz.</p>

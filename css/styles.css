@@ -63,6 +63,11 @@ footer * {
     display: inline;
 }
 
+.hidden {
+    display: none;
+    font-size: 0;
+}
+
 main fieldset {
     border: 1px solid #ccc;
     padding: 10px;
@@ -101,6 +106,7 @@ button:hover, .button:hover {
     background-color: #015c8c; /* Darker shade on hover for interactive feedback */
     transform: scale(1.05); /* Slight increase in size on hover for interactive feedback */
 }
+
 main p {
     font-size: 18px;
     color: #FFF;
