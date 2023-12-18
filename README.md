@@ -9,6 +9,6 @@ php -S 127.0.0.1:8000
 ```
 
 If you don't have it installed, you can install it with the following methods:
-- Windows: With windows I recommend [Scoop](https://scoop.sh), it's easy to install and uninstall, doesn't clutter up your PATH, and it is easy to use. after installing scoop you can install php with `scoop install php`.
+- Windows: With windows I recommend [Scoop](https://scoop.sh), it's easy to install and uninstall, doesn't clutter up your PATH, and it is easy to use. after installing scoop you can install php with `scoop install php`. While it's downloading, you can download the source code you need by going to Code>Download ZIP on this site. Then extract it, and then in the open command prompt after scoop does it's thing, run `cd` with the directory of the extracted folder. You can find the directory on the top bar in the explorer.
 - MacOS: On MacOS I recommend [Homebrew](https://brew.sh). After installing Homebrew, install PHP with `brew install php`.
 - Linux: On Linux I recommend using your distros package manager (`apt`, `dnf`, `zypper`, `pacman`, etc). If you use linux then you probably know which package to install.
